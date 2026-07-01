@@ -232,7 +232,7 @@ Example:
 
 ## Output
 
-![Test Output](calculator-test-output.png)
+![Test Output](mockito-test-output.png)
 
 ---
 
