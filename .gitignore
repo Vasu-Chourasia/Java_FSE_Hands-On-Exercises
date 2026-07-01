@@ -1,3 +1,5 @@
-Week 1/SingletonPatternExample/Main.class
-Week 1/SingletonPatternExample/Logger.class
+
 *.class
+.idea/
+target/
+*.iml
