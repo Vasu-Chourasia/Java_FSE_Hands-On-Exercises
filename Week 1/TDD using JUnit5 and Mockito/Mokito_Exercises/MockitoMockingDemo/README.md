@@ -230,9 +230,9 @@ Include a screenshot of the successful test execution.
 
 Example:
 
-```markdown
-![Test Output](mockito-test-output.png)
-```
+## Output
+
+![Test Output](calculator-test-output.png)
 
 ---
 

@@ -254,9 +254,9 @@ Include a screenshot of the successful test execution.
 
 Example:
 
-```markdown
+## Output
+
 ![Test Output](calculator-test-output.png)
-```
 
 ---
 
