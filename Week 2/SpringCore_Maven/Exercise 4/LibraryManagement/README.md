@@ -152,9 +152,8 @@ Include a screenshot of the successful Maven build.
 
 Example:
 
-```markdown
+
 ![Build Output](maven-build-output.png)
-```
 
 ---
 
