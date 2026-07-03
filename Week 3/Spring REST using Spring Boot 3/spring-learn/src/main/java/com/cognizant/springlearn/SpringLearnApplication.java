@@ -1,4 +1,6 @@
 package com.cognizant.springlearn;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,6 +19,22 @@ public class SpringLearnApplication {
         SpringApplication.run(SpringLearnApplication.class, args);
 
         LOGGER.info("Inside main()");
+
+        displayCountry();
     }
+    private static void displayCountry() {
+
+        LOGGER.info("Start");
+
+        ApplicationContext context =
+                new ClassPathXmlApplicationContext("country.xml");
+
+        Country country = context.getBean("country", Country.class);
+
+        LOGGER.debug("Country : {}", country);
+
+        LOGGER.info("End");
+    }
+    
 
 }
