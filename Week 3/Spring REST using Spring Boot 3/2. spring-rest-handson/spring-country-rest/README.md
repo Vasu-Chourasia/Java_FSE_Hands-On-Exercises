@@ -130,18 +130,6 @@ GET http://localhost:8083/countries/in
 
 ---
 
-# Screenshots
-
-## Project Structure
-
-> Add screenshot here
-
-```
-screenshots/project-structure.png
-```
-
----
-
 ## Running Spring Boot Application
 
 ```
